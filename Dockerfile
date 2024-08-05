@@ -8,10 +8,10 @@ RUN pip install Flask
 WORKDIR /app
 
 # Copy the application files to the container
-COPY app.py /app
+COPY SafetyDance.py /app
 
 # Expose port 80
 EXPOSE 80
 
 # Run the application
-CMD ["python", "app.py"]
+CMD ["python", "SafetyDance.py"]
